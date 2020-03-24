@@ -189,9 +189,9 @@ if __name__ == '__main__':
     swipLeft(driver_zsq)
 
     driver_zsq.find_element_by_id('com.tbc.android.defaults:id/uc_help_activity_go_btn').click()
-    driver_zsq.find_element_by_id('com.tbc.android.defaults:id/uc_login_corpcode_edittext').send_keys('gyrcb')
-    driver_zsq.find_element_by_id('com.tbc.android.defaults:id/uc_login_username_edittext').send_keys('周双全')
-    driver_zsq.find_element_by_id('com.tbc.android.defaults:id/uc_login_password_edittext').send_keys('Zsq198658')
+    driver_zsq.find_element_by_id('com.tbc.android.defaults:id/uc_login_corpcode_edittext').send_keys('单位代码')
+    driver_zsq.find_element_by_id('com.tbc.android.defaults:id/uc_login_username_edittext').send_keys('账号')
+    driver_zsq.find_element_by_id('com.tbc.android.defaults:id/uc_login_password_edittext').send_keys('密码')
     driver_zsq.find_element_by_id('com.tbc.android.defaults:id/login_login_btn').click()
 
     sleep(1)
